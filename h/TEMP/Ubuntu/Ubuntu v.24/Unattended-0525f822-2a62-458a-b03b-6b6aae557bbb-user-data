@@ -1,0 +1,65 @@
+#cloud-config
+autoinstall:
+  # version is an Autoinstall required field.
+  version: 1
+
+  apt:
+    fallback: offline-install
+
+  locale: en_US
+  keyboard:
+    layout: us
+
+  identity:
+    realname: 'Ubuntu'
+    username: 'Ubuntu'
+    password: '$6$Lci4XIRREvWo9hHz$iepeVBHLERFpOSFDjkrWyqdXKWcw.wIGAgIHlsfiMQu0dh7lxQkqmVNca.CIguCrKvK2oDkhavDsVy2QAR54X.'
+    hostname: 'Ubuntu'
+
+  shutdown: reboot
+
+  storage:
+    layout:
+      name: direct
+    swap:
+      size: 0
+
+
+
+
+  # Stuff we need to build Guest Additions modules.
+  packages:
+    - build-essential
+    - linux-headers-generic
+    - perl
+    - make
+
+
+  # Custom Commands.
+  late-commands:
+    - cp /cdrom/vboxpostinstall.sh /target/root/vboxpostinstall.sh
+    - chmod +x /target/root/vboxpostinstall.sh
+    - curtin in-target --target=/target -- /bin/bash /root/vboxpostinstall.sh --direct
+
+  # Additional cloud-init configuration affecting the target system can be supplied
+  # underneath a user-data section inside of autoinstall.
+  user-data:
+
+    users:
+      - name: root
+        primary_group: root
+        groups: sudo
+        lock-passwd: false
+        passwd: '$6$DtrLdDqqTXnjnfxv$LFmZvrYMHGtBqhJUJcVZptiFQIpg9oqiNIQxWmDxzPcRM.xpRhiKqi5Vuv9ncaLnejteKhrHG6JD/DxEgpgop/'
+        uid: 0
+
+
+    timezone: Etc/UTC
+
+
+
+    ntp:
+
+        enabled: false
+
+

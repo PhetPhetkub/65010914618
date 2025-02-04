@@ -1,0 +1,93 @@
+00:00:00.118188 VirtualBox GUI (separate) 7.1.4 r165100 win.amd64 (Oct 10 2024 18:57:17) release log
+00:00:00.118189 Log opened 2024-10-28T10:07:23.291263400Z
+00:00:00.118189 Build Type: release
+00:00:00.118192 OS Product: Windows 10
+00:00:00.118193 OS Release: 10.0.19045
+00:00:00.118193 OS Service Pack: 
+00:00:00.127385 DMI Product Name: 10TVS0C300
+00:00:00.130504 DMI Product Version: V530-15ICB
+00:00:00.130520 Firmware type: UEFI
+00:00:00.131073 Secure Boot: Disabled
+00:00:00.131083 Host RAM: 8074MB (7.8GB) total, 4374MB (4.2GB) available
+00:00:00.131086 Executable: C:\Program Files\Oracle\VirtualBox\VirtualBoxVM.exe
+00:00:00.131087 Process ID: 3640
+00:00:00.131087 Package type: WINDOWS_64BITS_GENERIC
+00:00:00.131087 Windows Features:
+00:00:00.131088   Core Isolation (Memory Integrity): DISABLED
+00:00:00.131761 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
+00:00:00.144322 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.650047 GUI: UIFrameBufferPrivate::performResize: Size=640x480, Using fallback buffer since no source bitmap is provided
+00:00:00.652742 DnD: User Interface Privilege Isolation (UIPI) is running with SECURITY_MANDATORY_HIGH_RID
+00:00:00.652755 DnD: Warning: The VM process' integrity level is higher than most regular processes on the system. This means that drag'n drop most likely will not work with other applications!
+00:00:00.653112 GUI: UIMachineViewNormal::resendSizeHint: Restoring guest size-hint for screen 0 to 800x600
+00:00:01.068591 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:01.068622 GUI: UIFrameBufferPrivate::performResize: Size=720x400, Using fallback buffer since no source bitmap is provided
+00:00:01.085422 GUI: UISession::sltAdditionsChange: GA state doesn't really changed, still notifying listeners.
+00:00:01.085457 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=1, Machine-state=6
+00:00:01.096499 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=1, Machine-state=6
+00:00:01.397006 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:06.115087 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:21.535999 GUI: UISession::sltAdditionsChange: GA state doesn't really changed, still notifying listeners.
+00:00:21.536012 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=1, Machine-state=6
+00:00:21.536348 GUI: UISession::sltAdditionsChange: GA state doesn't really changed, still notifying listeners.
+00:00:21.536357 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=1, Machine-state=6
+00:00:21.599241 GUI: UISession::sltAdditionsChange: GA state really changed, notifying listeners.
+00:00:21.599270 GUI: UIMachineViewNormal::adjustGuestScreenSize: Adjust guest-screen size if necessary
+00:00:21.599366 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=1, Machine-state=6
+00:00:22.551898 GUI: UIFrameBufferPrivate::performResize: Size=1280x800, Using fallback buffer since no source bitmap is provided
+00:20:50.982929 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:20:51.430976 GUI: UIFrameBufferPrivate::performResize: Size=1280x800, Using fallback buffer since no source bitmap is provided
+00:20:51.434282 GUI: UISession::sltAdditionsChange: GA state really changed, notifying listeners.
+00:20:51.434331 GUI: UIMachineViewNormal::adjustGuestScreenSize: Adjust guest-screen size if necessary
+00:20:51.434493 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=1, Machine-state=6
+00:20:51.434523 GUI: UIFrameBufferPrivate::performResize: Size=720x400, Using fallback buffer since no source bitmap is provided
+00:20:51.454127 GUI: UIMachineLogic: Guest-screen count changed
+00:20:52.058106 GUI: UIFrameBufferPrivate::performResize: Size=720x400, Using fallback buffer since no source bitmap is provided
+00:20:52.132031 GUI: UIFrameBufferPrivate::performResize: Size=640x480, Using fallback buffer since no source bitmap is provided
+00:20:54.269741 GUI: UIFrameBufferPrivate::performResize: Size=720x400, Using fallback buffer since no source bitmap is provided
+00:20:55.011251 GUI: UIFrameBufferPrivate::performResize: Size=640x480, Using fallback buffer since no source bitmap is provided
+00:20:57.856461 GUI: UIFrameBufferPrivate::performResize: Size=720x400, Using fallback buffer since no source bitmap is provided
+00:21:05.862218 GUI: UISession::sltAdditionsChange: GA state doesn't really changed, still notifying listeners.
+00:21:05.862232 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=1, Machine-state=6
+00:21:05.862560 GUI: UISession::sltAdditionsChange: GA state doesn't really changed, still notifying listeners.
+00:21:05.862569 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=1, Machine-state=6
+00:21:05.894104 GUI: UISession::sltAdditionsChange: GA state really changed, notifying listeners.
+00:21:05.894128 GUI: UIMachineViewNormal::adjustGuestScreenSize: Adjust guest-screen size if necessary
+00:21:05.894215 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=1, Machine-state=6
+00:21:07.465231 GUI: UIFrameBufferPrivate::performResize: Size=1280x800, Using fallback buffer since no source bitmap is provided
+00:22:49.451918 GUI: UIFrameBufferPrivate::performResize: Size=1280x800, Using fallback buffer since no source bitmap is provided
+00:22:49.453992 GUI: UIFrameBufferPrivate::performResize: Size=1360x768, Using fallback buffer since no source bitmap is provided
+00:22:49.487924 GUI: UIMachineLogic: Guest-screen count changed
+00:23:01.978925 GUI: UIFrameBufferPrivate::performResize: Size=1360x768, Using fallback buffer since no source bitmap is provided
+00:23:01.985583 GUI: UIFrameBufferPrivate::performResize: Size=1366x768, Using fallback buffer since no source bitmap is provided
+00:23:01.996658 GUI: UIMachineLogic: Guest-screen count changed
+00:23:08.526069 GUI: UIFrameBufferPrivate::performResize: Size=1366x768, Using fallback buffer since no source bitmap is provided
+00:23:08.528578 GUI: UIFrameBufferPrivate::performResize: Size=1280x768, Using fallback buffer since no source bitmap is provided
+00:23:08.559243 GUI: UIMachineLogic: Guest-screen count changed
+00:23:27.684445 GUI: UIFrameBufferPrivate::performResize: Size=1280x768, Using fallback buffer since no source bitmap is provided
+00:23:27.686646 GUI: UIFrameBufferPrivate::performResize: Size=1920x1080, Using fallback buffer since no source bitmap is provided
+00:23:27.708005 GUI: UIMachineLogic: Guest-screen count changed
+00:23:29.539464 GUI: UIFrameBufferPrivate::performResize: Size=1920x1080, Using fallback buffer since no source bitmap is provided
+00:23:29.543618 GUI: UIFrameBufferPrivate::performResize: Size=1280x768, Using fallback buffer since no source bitmap is provided
+00:23:29.584421 GUI: UIMachineLogic: Guest-screen count changed
+00:23:42.254816 GUI: UIFrameBufferPrivate::performResize: Size=1280x768, Using fallback buffer since no source bitmap is provided
+00:23:42.256611 GUI: UIFrameBufferPrivate::performResize: Size=1920x1080, Using fallback buffer since no source bitmap is provided
+00:23:42.276564 GUI: UIMachineLogic: Guest-screen count changed
+00:23:44.367625 GUI: UIFrameBufferPrivate::performResize: Size=1920x1080, Using fallback buffer since no source bitmap is provided
+00:23:44.371633 GUI: UIFrameBufferPrivate::performResize: Size=1280x768, Using fallback buffer since no source bitmap is provided
+00:23:44.408383 GUI: UIMachineLogic: Guest-screen count changed
+00:23:58.417837 GUI: UIFrameBufferPrivate::performResize: Size=1280x768, Using fallback buffer since no source bitmap is provided
+00:23:58.419421 GUI: UIFrameBufferPrivate::performResize: Size=1920x1080, Using fallback buffer since no source bitmap is provided
+00:23:58.452759 GUI: UIMachineLogic: Guest-screen count changed
+00:24:13.219124 GUI: UIFrameBufferPrivate::performResize: Size=1920x1080, Using fallback buffer since no source bitmap is provided
+00:24:13.226948 GUI: UIFrameBufferPrivate::performResize: Size=1280x800, Using fallback buffer since no source bitmap is provided
+00:24:13.272002 GUI: UIMachineLogic: Guest-screen count changed
+00:24:16.857121 GUI: UIFrameBufferPrivate::performResize: Size=1280x800, Using fallback buffer since no source bitmap is provided
+00:24:17.032970 GUI: Waiting for session to be unlocked to close Runtime UI..
+00:24:17.048443 GUI: Request to close Runtime UI because session is unlocked.
+00:24:17.048452 GUI: Request for async QApp quit.
+00:24:17.051033 GUI: Cannot notify guest about VM window out-of-focus event
+00:24:17.058098 GUI: UICommon: Handling aboutToQuit request..
+00:24:18.095058 ERROR [COM]: aRC=E_UNEXPECTED (0x8000ffff) aIID={c0447716-ff5a-4795-b57a-ecd5fffa18a4} aComponent={SessionWrap} aText={The session is not locked (session state: Unlocked)}, preserve=false aResultDetail=0
+00:24:18.099287 ERROR [COM]: aRC=E_UNEXPECTED (0x8000ffff) aIID={c0447716-ff5a-4795-b57a-ecd5fffa18a4} aComponent={SessionWrap} aText={The session is not locked (session state: Unlocked)}, preserve=false aResultDetail=0
+00:24:18.113080 GUI: UICommon: aboutToQuit request handled!
